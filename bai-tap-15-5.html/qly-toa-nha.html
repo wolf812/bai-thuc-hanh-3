@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5</title>
+</head>
+
+<body>
+    <h1>Quàn lý tòa nhà chung cư</h1>
+    <nav>
+        <a href="">Trang chủ</a>
+        <a href="">Danh sách căn hộ</a>
+        <a href="">Thêm căn hộ</a>
+        <a href="">Thông tin tòa nhà</a>
+
+    </nav>
+    <h2>Danh sách căn hộ</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Số căn hộ</th>
+                <th>Diện tích</th>
+                <th>Số phòng ngủ</th>
+                <th>Số phòng tắm</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--dòng 2-->
+            <tr>
+                <td>101</td>
+                <td>80m<sup>2</sup></td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <!--dòng 3-->
+            <tr>
+                <td>102</td>
+                <td>90m<sup>2</sup></td>
+                <td>3</td>
+                <td>2</td>
+            </tr>
+            <!--dòng 4-->
+            <tr>
+                <td>201</td>
+                <td>70m<sup>2</sup></td>
+                <td>2</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Thêm căn hộ mới</h2>
+    <form action="#" method="post">
+        <!---->
+        <label for="socanho"> Số căn hộ: </label>
+        <input type="number" id="socanho" name="socanho" required >
+<br/>
+        <!---->
+        <label for="dientich">Diện tích:</label>
+        <input type="text" name="dientich" id="dientich" required>
+<br>
+        <!---->
+        <label for="phongngu"> Số phòng ngủ: </label>
+        <input type="number" id="phongngu" name="phongngu" >
+<br>
+        <!---->
+        <label for="phongtam">Số Phòng tắm: </label>
+        <input type="number" id="phongtam" name="phongtam">
+<br>
+<input type="submit" value="Thêm">
+
+    </form>
+
+    <h3>Thông tin tòa nhà</h3>
+    <address>
+        <p>Địa chỉ: 123 Đường ABC, Quận XYZ, Thành phố ABC <br>
+        Số tầng: 10 <br>
+        Tổng số căn hộ: 50
+        </p>
+    </address>
+
+    <footer>
+        ©2023 Quản lý bởi NGUYỄN TRƯỜNG SƠN
+    </footer>
+</body>
+
+</html>

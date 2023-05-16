@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí mua xe </title>
+
+</head>
+
+<body>
+    <form action="#" method="post" enctype="">
+        <h2>Đăng kí mua xe ô tô</h2>
+        <!--họ và tên-->
+        <label for="hovaten">Họ và tên:</label>
+        <input type="text" name="hovaten" id="hovaten" placeholder=" Tên của bạn" required>
+
+        <br />
+        <!--email-->
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" placeholder="Email của bạn">
+        <br />
+        <!--phone-->
+
+        <label for="phone">Số điện thoại:</label>
+        <input type="number" name="phone" id="phone" placeholder="Số điện thoại của bạn">
+        <br />
+        <!--xe muốn mua -->
+
+        <label for="xemua">Xe ô tô muốn mua:</label>
+        <input type="text" name="listxe" id="listxe" placeholder="Mẫu xe" list="listxeoto">
+        <datalist id="listxeoto">
+            <option value="TYT"> Toyota</option>
+            <option value="HD">Honda</option>
+            <option value="BMW">BMW</option>
+
+        </datalist>
+
+
+        <label for="mess">Lời Nhắn:</label>
+        <br />
+        <textarea name="message" id="mess" cols="30%" rows="7"></textarea>
+        <!-- Màu xe-->
+        <br/>
+        <label for="mauxe">Màu xe:</label>
+       
+        <select name="mauxe" id="mauxe">
+            <option value="">Đỏ</option>
+            <option value="">Đen</option>
+        </select>
+
+    
+            <fieldset>
+                <legend>Phương thức thanh toán</legend>
+                
+                <input type="radio" id="" name="thetd" > Thẻ tín dụng <br/>
+                <input type="radio" id="" name="chuyenkhoan" > Chuyển Khoản ngân hàng
+           
+            </fieldset>
+            <br/>
+            <input type="checkbox" value=""> Tôi động ý với các điều khoản
+            <br/>
+            <input type="submit" value="Gửi" style="height: 40px;width: 15%;">
+        
+        
+
+
+
+
+
+
+    </form>
+
+</body>
+
+</html>
